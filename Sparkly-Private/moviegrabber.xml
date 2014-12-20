@@ -10,7 +10,7 @@ MovieGrabber is a fully automated way of downloading movie from usenet, it suppo
 [b]/movies[/b] Where your movies are.
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/moviegrabber/</Registry>
-<Repository>sparklyballs/moiegrabber</Repository>
+<Repository>sparklyballs/moviegrabber</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

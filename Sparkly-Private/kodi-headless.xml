@@ -15,7 +15,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-helix/</Registry>
-<Repository>sparklyballs/docker-kodi-server</Repository>
+<Repository>sparklyballs/headless-kodi-helix</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>

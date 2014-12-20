@@ -2,7 +2,8 @@
 <Container>
 <Name>XBMC-Headless</Name>
 <Description>
-A Headless installation of XBMC (gotham-13.2)to enable SB, CP etc to send updates to[br][br]
+A Headless installation of XBMC (helix release-candidate ?)to enable SB, CP etc to send updates to[br][br]
+[b][span style='color: #E80000;']THIS IS PATCHED SOFTWARE OF PRE-RELEASE CODE, INSTALL AT YOUR OWN RISK[br]I'M NOT RESPONSIBLE IF IT BREAKS ANYTHING[/span][/b][br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
 [b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
@@ -48,11 +49,11 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/root/.xbmc</ContainerDir>
+<ContainerDir>/root/.kodi</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
 <WebUI></WebUI>
-<Banner>www.abload.de/img/xbmc_luxxro55.png</Banner>
-<Icon>http://www.outsidaz.org/blog/wp-content/uploads/2011/09/xbmc.png</Icon>
+<Banner>http://i.imgur.com/9p9D1vn.png</Banner>
+<Icon>http://i.imgur.com/rqpofWj.png</Icon>
 </Container>

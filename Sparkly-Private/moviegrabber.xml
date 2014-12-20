@@ -42,7 +42,7 @@ MovieGrabber is a fully automated way of downloading movie from usenet, it suppo
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:9191]</WebUI>
 <Banner>http://i.imgur.com/q28ZvQU.png</Banner>
 <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/moviegrabber-icon.png</Icon>
 </Container>

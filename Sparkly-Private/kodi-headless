@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>KODI-Headless</Name>
-<Description>
-A Headless installation of KODI (pre-release version of 14)[br][b][span style='color: #E80000;']THIS IS A HACK TO ALLOW PRE-RELEASE SOFTWARE TO FUNCTION[br]IN WAYS IT WASN'T DESIGNED TO[br]INSTALL AND USE AT YOUR OWN RISK[/span][/b][br] Allows your SB, CP etc to send updates to[br][br]
+<Description>A Headless installation of KODI (pre-release version of 14)[br][b][span style='color: #E80000;']THIS IS A HACK TO ALLOW PRE-RELEASE SOFTWARE TO FUNCTION[br]IN WAYS IT WASN'T DESIGNED TO[br]INSTALL AND USE AT YOUR OWN RISK[/span][/b][br] Allows your SB, CP etc to send updates to[br][br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
 [b]/root/.xbmc[/b] : this path is used to store the config files for XBMC-Headless.[br]
@@ -11,8 +10,7 @@ MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS 
 MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
 MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
-[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (ie 14 for this) AND MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
-</Description>
+[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (ie 14 for this) AND MUST HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-helix/</Registry>
 <Repository>sparklyballs/docker-kodi-server</Repository>
 <BindTime>true</BindTime>

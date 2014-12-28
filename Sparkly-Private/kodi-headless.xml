@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>KODI-Headless[test]</Name>
+<Name>KODI-Headless-test</Name>
 <Description>
 A Headless installation of KODI (helix release-candidate ?)to enable SB, CP etc to send updates to[br][br]
 

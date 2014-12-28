@@ -14,8 +14,8 @@ MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-helix/</Registry>
-<Repository>sparklyballs/headless-kodi-helix</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/test-build-area/</Registry>
+<Repository>sparklyballs/test-build-area</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
@@ -49,7 +49,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/root/.kodi</ContainerDir>
+<ContainerDir>/opt/xbmc-server/portable_data</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Deb-Builder</Name>
-<Description>Test building .deb for KODI headless</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/test-build-area/</Registry>
-<Repository>sparklyballs/test-build-area</Repository>
+<Description>Builder Container for kodi .debs</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/deb-builder/</Registry>
+<Repository>sparklyballs/deb-builder</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
@@ -26,16 +26,6 @@
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/xbmc</ContainerDir>
-<Mode>rw</Mode>
-</Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir></ContainerDir>
-<Mode>rw</Mode>
-</Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir></ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

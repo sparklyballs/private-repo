@@ -25,11 +25,11 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/xbmc</ContainerDir>
+<ContainerDir>/root/debout</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
 <WebUI></WebUI>
-<Banner>http://flashadmin.org/images/linux_banner_243x70.png</Banner>
-<Icon>http://www.linuxscrew.com/wp-content/uploads/2008/06/torchlight_tar.png</Icon>
+<Banner>http://i.imgur.com/RiGZWqr.png</Banner>
+<Icon>http://i.imgur.com/d6solfL.png</Icon>
 </Container>

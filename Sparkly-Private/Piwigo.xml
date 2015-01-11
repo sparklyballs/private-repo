@@ -30,7 +30,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/log/apache2</ContainerDir>
+<ContainerDir></ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

@@ -25,12 +25,12 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/var/www</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/var/log/apache2</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

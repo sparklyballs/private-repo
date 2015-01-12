@@ -3,8 +3,8 @@
   <Name>CouchPotato-Screeners</Name>
   <Description>
     Personalised copy of CP Docker</Description>
-  <Registry>https://registry.hub.docker.com/u/sparklyballs/couchpotato/</Registry>
-  <Repository>sparklyballs/couchpotato</Repository>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/couchpotato2/</Registry>
+  <Repository>sparklyballs/couchpotato2</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>

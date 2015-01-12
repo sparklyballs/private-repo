@@ -13,7 +13,8 @@
 <HostPort>9090</HostPort>
 <ContainerPort>9090</ContainerPort>
 <Protocol>tcp</Protocol>
-</Port><Port>
+</Port>
+<Port>
 <HostPort>8080</HostPort>
 <ContainerPort>8080</ContainerPort>
 <Protocol>tcp</Protocol>
@@ -25,7 +26,6 @@
 <Name></Name>
 <Value></Value>
 </Variable>
-<Variable>
 </Environment>
 <Data>
 <Volume>

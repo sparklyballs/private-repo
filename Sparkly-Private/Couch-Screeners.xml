@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>CouchPotato-Screeners</Name>
+  <Description>
+    Personalised copy of CP Docker</Description>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/couchpotato/</Registry>
+  <Repository>sparklyballs/couchpotato</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5051</HostPort>
+        <ContainerPort>5050</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>EDGE</Name>
+      <Value>0</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/mnt/XBMC-Media</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:5051]/</WebUI>
+  <Banner>http://i.imgur.com/2BKYsWT.png</Banner>
+  <Icon>http://i.imgur.com/popkAe6.png</Icon>
+</Container>

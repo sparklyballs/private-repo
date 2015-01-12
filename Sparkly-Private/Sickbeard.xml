@@ -34,7 +34,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>https://192.168.1.10:8081</WebUI>
+<WebUI>http://192.168.1.10:8081</WebUI>
 <Banner>http://i.imgur.com/SqhPdyk.png</Banner>
 <Icon>http://i.imgur.com/wx5Cp2n.png</Icon>
 </Container>

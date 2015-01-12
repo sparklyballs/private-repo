@@ -18,7 +18,7 @@
 </Networking>
 <Environment>
 <Variable>
-<Name></Name>
+<Name>EDGE</Name>
 <Value></Value>
 </Variable>
 </Environment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>KODI-Headless</Name>
+<Name>KODI-Headless-Test</Name>
 <Description>
 A Headless installation of KODI (helix release-candidate ?)to enable SB, CP etc to send updates to[br][br]
 [br]
@@ -14,8 +14,8 @@ MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/deb-temp/</Registry>
-<Repository>sparklyballs/deb-temp</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/test-build-area/</Registry>
+<Repository>sparklyballs/test-build-area</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
@@ -23,7 +23,7 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <Publish>
 <Port>
 <HostPort>8080</HostPort>
-<ContainerPort>8080</ContainerPort>
+<ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>

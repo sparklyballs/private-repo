@@ -40,7 +40,7 @@ Integrated kodi and mariadb container</Description>
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:]</WebUI>
+<WebUI>http://[IP]:[PORT]</WebUI>
 <Banner>http://i.imgur.com/MAY6pir.png</Banner>
 <Icon>http://i.imgur.com/rqpofWj.png</Icon>
 </Container>

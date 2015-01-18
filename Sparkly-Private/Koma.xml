@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Koma</Name>
-<Description>Koma</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/koma/</Registry>
-<Repository>sparklyballs/koma</Repository>
+<Description>
+Integrated kodi and mariadb container</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/12.04-kodi-headless/</Registry>
+<Repository>sparklyballs/12.04-kodi-headless</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8080</HostPort>
+<HostPort>8092</HostPort>
 <ContainerPort>8080</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
-<Port>
-<HostPort>3306</HostPort>
-<ContainerPort>3306</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -39,7 +35,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:]</WebUI>
 <Banner>http://i.imgur.com/MAY6pir.png</Banner>
-<Icon>http://i.imgur.com/7qmPTd9.png</Icon>
+<Icon>http://i.imgur.com/rqpofWj.png</Icon>
 </Container>

@@ -3,16 +3,21 @@
 <Name>Koma</Name>
 <Description>
 Integrated kodi and mariadb container</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/12.04-kodi-headless/</Registry>
-<Repository>sparklyballs/12.04-kodi-headless</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/koma/</Registry>
+<Repository>sparklyballs/koma</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8092</HostPort>
+<HostPort>8080</HostPort>
 <ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>3306</HostPort>
+<ContainerPort>3306</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>

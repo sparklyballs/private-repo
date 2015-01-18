@@ -15,11 +15,6 @@ Integrated kodi and mariadb container</Description>
 <ContainerPort>8080</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>3306</HostPort>
-<ContainerPort>3306</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Environment>

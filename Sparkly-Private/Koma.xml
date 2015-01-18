@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Koma</Name>
-<Description></Description>
+<Description>Koma</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/koma/</Registry>
 <Repository>sparklyballs/koma</Repository>
 <BindTime>true</BindTime>

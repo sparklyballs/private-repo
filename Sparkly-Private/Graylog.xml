@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Sabnzbd</Name>
-<Description>Personalised copy of SAB Docker</Description>
+<Name>Graylog2</Name>
+<Description>Playing around with something complex as proof of concept</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/sabnzbd/</Registry>
 <Repository>sparklyballs/sabnzbd</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
-<Mode>bridge</Mode>
+<Mode>host</Mode>
 <Publish>
 <Port>
 <HostPort>9090</HostPort>

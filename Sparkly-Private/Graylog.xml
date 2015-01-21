@@ -2,8 +2,8 @@
 <Container>
 <Name>Graylog2</Name>
 <Description>Graylog2 log analyzer</Description>
-<Registry>https://registry.hub.docker.com/u/graylog2/allinone/</Registry>
-<Repository>graylog2/allinone</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/syslog-server/</Registry>
+<Repository>sparklyballs/syslog-server</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

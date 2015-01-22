@@ -47,11 +47,6 @@
 <ContainerDir>/var/log/graylog2</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir>/opt/graylog2/conf</ContainerDir>
-<Mode>rw</Mode>
-</Volume>
 </Data>
 <WebUI>http://192.168.1.10:9000</WebUI>
 <Banner>http://i.imgur.com/G8zlNUY.png</Banner>

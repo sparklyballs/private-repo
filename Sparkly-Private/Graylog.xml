@@ -24,6 +24,11 @@
 <ContainerPort>514</ContainerPort>
 <Protocol>udp</Protocol>
 </Port>
+<Port>
+<HostPort>5555</HostPort>
+<ContainerPort>5555</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>

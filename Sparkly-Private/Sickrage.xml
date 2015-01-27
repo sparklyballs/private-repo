@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Sickbeard</Name>
+<Name>SickRage</Name>
 <Description>Personalised copy of SickRage Docker</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/sickrage/</Registry>
 <Repository>sparklyballs/sickrage</Repository>

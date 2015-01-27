@@ -14,8 +14,8 @@ MYSQLuser :- The xbmc user for mysql host [b]NOT USUALLY ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE THE SAME VERSION (14)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/12.04-kodi-headless/</Registry>
-<Repository>sparklyballs/12.04-kodi-headless</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/kodi-deb-install/</Registry>
+<Repository>sparklyballs/kodi-deb-install</Repository>
 <BindTime>true</BindTime>
 <Privileged>true</Privileged>
 <Networking>

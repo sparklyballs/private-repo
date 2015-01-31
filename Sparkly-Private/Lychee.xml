@@ -25,7 +25,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/gallery</ContainerDir>
+<ContainerDir>/var/www/Lychee</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>

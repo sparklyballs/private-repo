@@ -30,7 +30,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir></ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

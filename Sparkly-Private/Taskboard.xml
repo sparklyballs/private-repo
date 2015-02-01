@@ -25,7 +25,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/var/www/Taskboard</ContainerDir>
+<ContainerDir>/var/www/TaskBoard</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>

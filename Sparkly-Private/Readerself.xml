@@ -34,7 +34,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT]</WebUI>
+<WebUI>http://[IP]:[8076]/</WebUI>
 <Banner>http://www.mouserunner.net/free_graphics/RSS/RSS_Oval_Page_Preview.png</Banner>
 <Icon>http://www.easi-ie.com/wp-content/uploads/2012/05/rss.png</Icon>
 </Container>

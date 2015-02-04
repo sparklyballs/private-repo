@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Readerself</Name>
+<Name>Amule</Name>
 <Description>Amule test installation only</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/amule/</Registry>
 <Repository>sparklyballs/amule</Repository>

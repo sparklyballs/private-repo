@@ -24,6 +24,11 @@
 <ContainerPort>4711</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
+<Port>
+<HostPort>4712</HostPort>
+<ContainerPort>4712</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>

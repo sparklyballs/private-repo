@@ -10,6 +10,16 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
+<HostPort>4665</HostPort>
+<ContainerPort>4665</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>4672</HostPort>
+<ContainerPort>4672</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
 <HostPort>4711</HostPort>
 <ContainerPort>4711</ContainerPort>
 <Protocol>tcp</Protocol>

@@ -45,7 +45,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/downloads</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

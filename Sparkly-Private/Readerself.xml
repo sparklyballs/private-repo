@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Readerself</Name>
-<Description>Lychee test installation only</Description>
+<Description>Readerself test installation only</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/readerself/</Registry>
 <Repository>sparklyballs/readerself</Repository>
 <BindTime>true</BindTime>

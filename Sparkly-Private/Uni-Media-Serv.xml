@@ -14,6 +14,11 @@
 <ContainerPort>5001</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
+<Port>
+<HostPort>9001</HostPort>
+<ContainerPort>9001</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>
@@ -34,7 +39,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:5001]/</WebUI>
+<WebUI>http://[IP]:[PORT:9001]/</WebUI>
 <Banner></Banner>
 <Icon>http://www.spirton.com/wp-content/uploads/2012/05/UMS-Logo2.png</Icon>
 </Container>

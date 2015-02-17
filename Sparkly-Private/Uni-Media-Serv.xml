@@ -12,7 +12,7 @@
 <Port>
 <HostPort>5001</HostPort>
 <ContainerPort>5001</ContainerPort>
-<Protocol>tcp</Protocol>
+<Protocol>udp</Protocol>
 </Port>
 <Port>
 <HostPort>9001</HostPort>

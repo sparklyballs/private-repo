@@ -10,13 +10,13 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>5001</HostPort>
-<ContainerPort>5001</ContainerPort>
+<HostPort>9001</HostPort>
+<ContainerPort>9001</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
-<HostPort>9001</HostPort>
-<ContainerPort>9001</ContainerPort>
+<HostPort>5001</HostPort>
+<ContainerPort>5001</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 <Port>

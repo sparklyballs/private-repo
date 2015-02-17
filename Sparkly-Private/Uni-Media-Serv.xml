@@ -30,7 +30,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/root/.config/UMS</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>

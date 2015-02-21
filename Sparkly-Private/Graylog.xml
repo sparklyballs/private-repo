@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Graylog2</Name>
-<Description>Graylog2 log analyzer</Description>
+<Name>Graylog</Name>
+<Description>Graylog log analyzer</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/syslog-server/</Registry>
 <Repository>sparklyballs/syslog-server</Repository>
 <BindTime>true</BindTime>

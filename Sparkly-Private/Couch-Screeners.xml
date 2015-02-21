@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>CouchPotato-Screeners</Name>
+  <Name>Couch-Screeners</Name>
   <Description>
     Personalised copy of CP Docker</Description>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/couchpotato2/</Registry>

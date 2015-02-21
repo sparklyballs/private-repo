@@ -34,7 +34,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>https://192.168.1.10:9090</WebUI>
+<WebUI>http://[IP]:[PORT:7396]/</WebUI>
 <Banner>https://folding.stanford.edu/home/wp-content/uploads/fold-people.png</Banner>
 <Icon>http://folding.stanford.edu/nacl/images/fah-logo.png</Icon>
 </Container>

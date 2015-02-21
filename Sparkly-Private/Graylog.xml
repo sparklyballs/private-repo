@@ -28,11 +28,11 @@
 </Networking>
 <Environment>
 <Variable>
-<Name>GRAYLOG2_PASSWORD</Name>
+<Name>GRAYLOG_PASSWORD</Name>
 <Value></Value>
 </Variable>
 <Variable>
-<Name>GRAYLOG2_TIMEZONE</Name>
+<Name>GRAYLOG_TIMEZONE</Name>
 <Value></Value>
 </Variable>
 </Environment>

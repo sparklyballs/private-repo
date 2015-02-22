@@ -47,6 +47,11 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
+      <ContainerDir>/incomplete</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+       <Volume>
+      <HostDir></HostDir>
       <ContainerDir>/downloads</ContainerDir>
       <Mode>rw</Mode>
     </Volume>

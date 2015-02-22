@@ -9,8 +9,7 @@
     [b]Tip:[/b] Don't change ports 58846 (daemon) and 8112 (webgui) ports unless necessary. Port 59981 is an example of income port, you can change it at will. This port should be NAT forwarded in your router.
   </Description>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/deluge/</Registry>
-  <GitHub>https://github.com/sparklyballs/deluge</GitHub>
-  <Repository>needo/deluge</Repository>
+  <Repository>sparklyballs/deluge</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

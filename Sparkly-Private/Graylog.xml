@@ -53,7 +53,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://192.168.1.10:9000</WebUI>
+<WebUI>http://[IP]:[PORT:9000]/</WebUI>
 <Banner>http://i.imgur.com/G8zlNUY.png</Banner>
 <Icon>http://i.imgur.com/O4mraK7.png</Icon>
 </Container>

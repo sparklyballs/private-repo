@@ -44,7 +44,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://192.168.1.10:8181</WebUI>
+<WebUI>http://[IP]:[PORT:8181]/</WebUI>
 <Banner>http://i.imgur.com/u7vqqp5.png</Banner>
 <Icon>http://nuxref.files.wordpress.com/2014/07/headphones128x128-icon.png</Icon>
 </Container>

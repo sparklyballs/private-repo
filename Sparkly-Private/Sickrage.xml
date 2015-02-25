@@ -10,7 +10,7 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort>8086</HostPort>
+<HostPort>8081</HostPort>
 <ContainerPort>8081</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
@@ -34,7 +34,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://192.168.1.10:8086</WebUI>
+<WebUI>http://[IP]:[PORT:8081]/</WebUI>
 <Banner>http://i.imgur.com/2wzzoAU.png</Banner>
 <Icon>http://developer.asustor.com/uploadIcons/0020_14587_1403671304_SickRage.png</Icon>
 </Container>

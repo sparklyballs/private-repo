@@ -22,6 +22,10 @@
       <Name>EDGE</Name>
       <Value>0</Value>
     </Variable>
+     <Variable>
+<Name>NZBDRONE</Name>
+<Value>0</Value>
+</Variable>
   </Environment>
   <Data>
     <Volume>

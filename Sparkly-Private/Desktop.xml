@@ -36,7 +36,12 @@
    
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/home/ubuntu/.config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+      <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/OUTPUT</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   

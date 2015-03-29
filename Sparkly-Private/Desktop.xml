@@ -41,7 +41,7 @@
     </Volume>
       <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/home/ubuntu/UnRaid</ContainerDir>
+      <ContainerDir>/OUTPUT</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Desktop</Name>
-  <Description>Desktop in a box with libreoffice, hits CPU fairly hard. Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown</Description>
+  <Description>Desktop in a box with libreoffice, hits CPU fairly hard.[br]Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown. There are some wallpapers in /home/ubuntu/unraid/wallpapers.</Description>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/test-desktop/</Registry>
   <Repository>sparklyballs/test-desktop</Repository>
   <BindTime>true</BindTime>

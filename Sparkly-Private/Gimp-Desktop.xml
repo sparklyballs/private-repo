@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>Libre-Desktop</Name>
-  <Description>Desktop in a box with libreoffice, hits CPU fairly hard.[br]Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown. There are some wallpapers in /home/ubuntu/unraid/wallpapers.[br][b]IMPORTANT:- You have to connect with a remote desktop connection to port 3389. Also if you have kvm vm's running you may have to alter the host port for the 5900 port below to avoid a clash[/b]</Description>
-  <Registry>https://registry.hub.docker.com/u/sparklyballs/test-desktop/</Registry>
-  <Repository>sparklyballs/test-desktop</Repository>
+  <Name>Gimp-Desktop</Name>
+  <Description>Desktop in a box with gimp, hits CPU fairly hard.[br]Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown. There are some wallpapers in /home/ubuntu/unraid/wallpapers.[br][b]IMPORTANT:- You have to connect with a remote desktop connection to port 3389. Also if you have kvm vm's running you may have to alter the host port for the 5900 port below to avoid a clash[/b]</Description>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/gimp-desktop/</Registry>
+  <Repository>sparklyballs/gimp-desktop</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -35,7 +35,7 @@
   <Data>
    <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/home/ubuntu/.config</ContainerDir>
+      <ContainerDir></ContainerDir>
       <Mode>rw</Mode>
     </Volume>
       <Volume>
@@ -45,6 +45,6 @@
     </Volume>
   </Data>
   <WebUI></WebUI>
-  <Banner>http://i.imgur.com/sYmbxI3.png</Banner>
-  <Icon>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</Icon>
+  <Banner>http://www.sonicdownloads.net/Images/SonicDownloads/gimp_logo.png</Banner>
+  <Icon>http://www.clippingpathspecialist.com/wp-content/uploads/2011/07/GIMP-softwar-icon.png</Icon>
 </Container>

@@ -39,7 +39,7 @@
   <Data>
    <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/var/urbackup</ContainerDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>

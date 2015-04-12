@@ -50,6 +50,6 @@
 </Volume>
 </Data>
 <WebUI>http://[IP]:[PORT:8989]/</WebUI>
-<Banner></Banner>
-<Icon></Icon>
+<Banner>http://i.imgur.com/rsb80Zk.png</Banner>
+<Icon>http://i.imgur.com/CIXYh6A.png</Icon>
 </Container>

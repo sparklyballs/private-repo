@@ -16,16 +16,6 @@
 <ContainerPort>8000</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>62062</HostPort>
-<ContainerPort>62062</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
-<Port>
-<HostPort>22</HostPort>
-<ContainerPort>22</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Environment>

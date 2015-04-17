@@ -36,7 +36,7 @@
 <Mode></Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:8000]/torrenttv/torrenttv.m3u</WebUI>
 <Banner>http://i.imgur.com/JOjGDyi.png</Banner>
 <Icon>http://i.imgur.com/5VBjgeV.png</Icon>
 </Container>

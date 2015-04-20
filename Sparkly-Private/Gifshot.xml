@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Gifshot</Name>
+<Overview>Web based gif making software from the yahoo team that can accept a variety of media sources, video, webcam or images</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
+<Description>Web based gif making software from the yahoo team</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/acestream/</Registry>
+<Repository>sparklyballs/acestream</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8001</HostPort>
+<ContainerPort>8001</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode></Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode></Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8001]/</WebUI>
+<Banner>http://i.imgur.com/JOjGDyi.png</Banner>
+<Icon>http://i.imgur.com/5VBjgeV.png</Icon>
+</Container>

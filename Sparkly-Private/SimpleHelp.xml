@@ -17,8 +17,8 @@
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
-<HostPort>443</HostPort>
-<ContainerPort>443</ContainerPort>
+<HostPort></HostPort>
+<ContainerPort></ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>

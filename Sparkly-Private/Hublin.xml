@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Hublin</Name>
+<Description>Video conferencing server</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/hublin/</Registry>
+<Repository>sparklyballs/hublin</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>8080</HostPort>
+<ContainerPort>8080</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/data/db</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+<Banner></Banner>
+<Icon>http://i.imgur.com/Ox23tFK.png</Icon>
+</Container>

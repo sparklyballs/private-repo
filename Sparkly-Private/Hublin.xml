@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>Hublin</Name>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
+<Overview>Hubl.in is a free and open source video conference solution built with love and designed with ethics in mind. It's the best way to initiate a communication anywhere with anybody and brings real time conversation to the next level. Hubl.in allows free communication without additional plugins</Overview>
 <Description>Video conferencing server</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/hublin/</Registry>
 <Repository>sparklyballs/hublin</Repository>

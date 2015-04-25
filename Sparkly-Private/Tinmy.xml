@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>tinyMediaManager</Name>
-  <Description>
-    tinyMediaManager (http://www.tinymediamanager.org) is a media management tool written in Java/Swing.[br]
-    It is written to provide metadata for the XBOX Media Center (XBMC).[br]
-    Due to the fact that it is written in Java, tinyMediaManager will run on Windows, Linux and Mac OSX (and possible more OS).[br][br]
-
-    [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/config[/b]   : set this path to where you wish tinyMediaManager to store it's configuration.[br]
-    [b]/mnt[/b]    : set this path to where you wish tinyMediaManager to search for media.[br]
-  </Description>
-  <Registry>https://registry.hub.docker.com/u/hurricane/tinymediamanager</Registry>
-  <GitHub>https://github.com/HurricaneHernandez/tmm.git</GitHub>
-  <Repository>hurricane/tinymediamanager</Repository>
+  <Name>Calibre</Name>
+  <Description></Description>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/calibre-desktop/</Registry>
+  <Repository>sparklyballs/calibre-desktop</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment/>
@@ -20,25 +11,25 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8088</HostPort>
-        <ContainerPort>8088</ContainerPort>
+        <HostPort>6080</HostPort>
+        <ContainerPort>6080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/opt/appdata/tinyMediaManager</HostDir>
-      <ContainerDir>/config</ContainerDir>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/</HostDir>
-      <ContainerDir>/mnt</ContainerDir>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:8088]/</WebUI>
-  <Banner>http://i.imgur.com/w5HBV2W.png</Banner>
-  <Icon>http://i.imgur.com/o9leX9c.png</Icon>
+  <WebUI>http://[IP]:[PORT:6080]/</WebUI>
+  <Banner></Banner>
+  <Icon></Icon>
 </Container>

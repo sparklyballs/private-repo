@@ -20,7 +20,7 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/Pictures</ContainerDir>
+      <ContainerDir>/Movies</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>

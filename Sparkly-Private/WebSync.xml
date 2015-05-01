@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>WebSync</Name>
+  <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
+  <Description>An easy way to manage rsync jobs.[br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Description>
+  <Overview>An easy way to manage rsync jobs.[br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/websync/</Registry>
+  <Repository>sparklyballs/websync</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Movies</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/MfVR308.png</Icon>
+</Container>

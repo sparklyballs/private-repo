@@ -30,7 +30,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/deb-out</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

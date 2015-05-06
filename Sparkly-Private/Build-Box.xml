@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>BuildBox</Name>
-<Description>Unmark test installation only[br]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/unmark/</Registry>
-<Repository>sparklyballs/unmark</Repository>
+<Overview>FPM Builder</Overview>
+<Description>FPM Builder</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/builder/</Registry>
+<Repository>sparklyballs/builder</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

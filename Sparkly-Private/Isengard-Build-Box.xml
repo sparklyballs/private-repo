@@ -31,6 +31,16 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
+<ContainerDir>/Patches</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/Source</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
 <ContainerDir>/deb-out</ContainerDir>
 <Mode>rw</Mode>
 </Volume>

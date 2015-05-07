@@ -22,12 +22,12 @@
   <Data>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/UNRAID</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir></ContainerDir>
+      <ContainerDir>/nobody/.kde</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>

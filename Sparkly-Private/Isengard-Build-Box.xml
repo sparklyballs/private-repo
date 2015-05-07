@@ -3,8 +3,8 @@
 <Name>Isengard-BuildBox</Name>
 <Overview>FPM Builder for Isengard</Overview>
 <Description>FPM Builder for Isengard</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/builder/</Registry>
-<Repository>sparklyballs/builder</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/isengard-builder-box/</Registry>
+<Repository>sparklyballs/isengard-builder-box</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

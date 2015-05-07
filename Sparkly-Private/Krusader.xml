@@ -2,7 +2,7 @@
 <Container>
   <Name>Krusader</Name>
   <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
-  <Description>Krusader is a fully featured file manager, highly configurable. [br][br][b]<span style="color: red">BE VERY CAREFUL AS YOU CAN DELETE THINGS YOU MAY NOT INTEND TO[br]I AM NOT RESPONSIBLE FOR YOUR BAD DECISIONS.</span></Description>
+  <Description>Krusader is a fully featured file manager, highly configurable. [br][br][b][span style="color: red"]BE VERY CAREFUL AS YOU CAN DELETE THINGS YOU MAY NOT INTEND TO[br]I AM NOT RESPONSIBLE FOR YOUR BAD DECISIONS.[/span]</Description>
   <Overview>Krusader is a fully featured file manager, highly configurable. Full gui in a RDP container accessible via browser.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/krusader/</Registry>
   <Repository>sparklyballs/krusader</Repository>

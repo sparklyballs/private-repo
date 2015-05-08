@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Pitivi</Name>
+  <Description></Description>
+  <Support>http://lime-technology.com/forum/index.php?topic=39710.0</Support>
+  <Overview></Overview>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/pitivi/</Registry>
+  <Repository>sparklyballs/pitivi</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+ <Environment>
+<Variable>
+<Name>WIDTH</Name>
+<Value>1280</Value>
+</Variable>
+<Variable>
+<Name>HEIGHT</Name>
+<Value>720</Value>
+</Variable>
+</Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/Movies</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir></ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI>http://[IP]:[PORT:8080]/#/client/c/Pitivi</WebUI>
+  <Banner></Banner>
+  <Icon>http://i.imgur.com/m9WpXC2.png</Icon>
+</Container>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Pydio-SSL</Name>
+<Support>http://lime-technology.com/forum/index.php?topic=39635</Support>
+<Overview>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization. With intuitive user interfaces (web / mobile / desktop), Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.</Overview>
+<Description>Pydio (formerly AjaXplorer) is a mature open source software solution for file sharing and synchronization.[br]With intuitive user interfaces (web / mobile / desktop)[br]Pydio provides enterprise-grade features to gain back control and privacy of your data: user directory connectors, legacy filesystems drivers, comprehensive admin interface, and much more.[br][br][b]To setup email notifications, start the container, edit the ssmtp file in /config and stop/start the container[br]You will need to change the port below, during setup you should select sqlite for db, at the end it will give you contents of an .htaccess file.[br]You must create it in the root of your mapped /var/www/pydio folder and then refresh the page.</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/pydio-ssl/</Registry>
+<Repository>sparklyballs/pydio-ssl</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>6074</HostPort>
+<ContainerPort>6074</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/pydio</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>https://[IP]:[PORT:6074]/</WebUI>
+<Banner>http://i.imgur.com/BZoksFn.png</Banner>
+<Icon>http://i.imgur.com/QdfVQrI.png</Icon>
+</Container>

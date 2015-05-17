@@ -2,7 +2,7 @@
 <Container>
 <Name>MusicBrainz</Name>
 <Overview>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
-<Description>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...[br][br][b]Requires the downloading of initial databases from musicbrainz[br][br]Downloaded from ftp://ftp.musicbrainz.org/pub/musicbrainz/data/fullexport/ or the European mirror server at ftp://eu.ftp.musicbrainz.org/MusicBrainz/data/fullexport/</Description>
+<Description>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...[br][br][b]Requires the downloading of initial databases from musicbrainz[br][br]Downloaded from [url]ftp://ftp.musicbrainz.org/pub/musicbrainz/data/fullexport/[/url] or the European mirror server at [url]ftp://eu.ftp.musicbrainz.org/MusicBrainz/data/fullexport/[/url]</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/musicbrainz/</Registry>
 <Repository>sparklyballs/musicbrainz</Repository>
 <BindTime>true</BindTime>

@@ -35,7 +35,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/import</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>MusicBrainz</Name>
+<Support>http://lime-technology.com/forum/index.php?topic=39986</Support>
 <Overview>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...</Overview>
 <Description>Locally hosted mirror of musicbrainz for use in conjunction with headphones etc...[br][br][b]Requires the downloading of initial databases (VERY LARGE DOWNLOAD, > 5GB) from musicbrainz[br][br]Downloaded from [url]ftp://ftp.musicbrainz.org/pub/musicbrainz/data/fullexport/[/url] or the European mirror server at [url]ftp://eu.ftp.musicbrainz.org/MusicBrainz/data/fullexport/[/url][br][br]Fetch all .bz2 files from the latest release plus the MD5SUMS files and place them in the /import mapped folder, prior to starting the container for the first time.</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/musicbrainz/</Registry>

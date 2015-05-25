@@ -6,8 +6,8 @@
 <Overview>Pynab is an NZB indexer written in the python programming language</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>Pynab is an NZB indexer written in the python programming language</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/amule/</Registry>
-<Repository>sparklyballs/amule</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/pynab/</Registry>
+<Repository>sparklyballs/pynab</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

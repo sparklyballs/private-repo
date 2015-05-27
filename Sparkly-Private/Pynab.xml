@@ -29,12 +29,12 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/data</ContainerDir>
+<ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/data</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

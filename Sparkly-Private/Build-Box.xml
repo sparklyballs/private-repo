@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
 <Name>BuildBox</Name>
+<Beta>False</Beta>
+<Category>Other:</Category>
 <Overview>FPM Builder</Overview>
 <Description>FPM Builder</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/builder/</Registry>

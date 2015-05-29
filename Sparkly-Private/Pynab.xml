@@ -22,7 +22,7 @@
 </Networking>
 <Environment>
 <Variable>
-<Name></Name>
+<Name>news-server</Name>
 <Value></Value>
 </Variable>
 </Environment>

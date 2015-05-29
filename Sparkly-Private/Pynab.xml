@@ -37,6 +37,10 @@
 <Name>news_port</Name>
 <Value></Value>
 </Variable>
+<Variable>
+<Name>news_ssl</Name>
+<Value>0</Value>
+</Variable>
 </Environment>
 <Data>
 <Volume>

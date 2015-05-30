@@ -41,6 +41,10 @@
 <Name>news_ssl</Name>
 <Value>0</Value>
 </Variable>
+<Variable>
+<Name>regex_url</Name>
+<Value></Value>
+</Variable>
 </Environment>
 <Data>
 <Volume>

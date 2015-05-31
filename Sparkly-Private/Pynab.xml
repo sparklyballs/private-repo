@@ -43,7 +43,7 @@
 </Variable>
 <Variable>
 <Name>regex_url</Name>
-<Value></Value>
+<Value>https://raw.githubusercontent.com/kop1/newznab/master/db/latestregex.sql</Value>
 </Variable>
 </Environment>
 <Data>

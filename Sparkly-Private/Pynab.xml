@@ -45,6 +45,10 @@
 <Name>regex_url</Name>
 <Value>https://raw.githubusercontent.com/kop1/newznab/master/db/latestregex.sql</Value>
 </Variable>
+<Variable>
+<Name>backfill_days</Name>
+<Value>0</Value>
+</Variable>
 </Environment>
 <Data>
 <Volume>

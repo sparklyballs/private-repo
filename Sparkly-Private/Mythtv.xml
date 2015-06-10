@@ -10,6 +10,8 @@
 [center][font size=5]MythTv Change Log[/font][/center]
 [font size=4]2015.06.10[/font]
 - Initial Commit to private repo
+- Switch to mariadb for easier start routine
+- Sort minor dependency issues
 </Changes>
 <Overview>Myth-Tv test installation</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>

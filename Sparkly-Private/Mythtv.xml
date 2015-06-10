@@ -42,7 +42,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir></ContainerDir>
+<ContainerDir>/home/ubuntu/databases</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

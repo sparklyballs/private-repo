@@ -23,9 +23,14 @@
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
-<Port>
+ <Port>
 <HostPort>3389</HostPort>
 <ContainerPort>3389</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>3306</HostPort>
+<ContainerPort>3306</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>
@@ -44,7 +49,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/home/ubuntu/databases</ContainerDir>
+<ContainerDir>/db</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

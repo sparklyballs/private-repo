@@ -28,11 +28,6 @@
 <ContainerPort>3389</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>3306</HostPort>
-<ContainerPort>3306</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Environment>
@@ -45,11 +40,6 @@
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/home/ubuntu/.mythtv</ContainerDir>
-<Mode>rw</Mode>
-</Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir>/db</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

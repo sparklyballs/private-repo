@@ -9,15 +9,13 @@
  
 [center][font size=5]MythSQL Change Log[/font][/center]
 [font size=4]2015.06.10[/font]
-- Initial Commit to private repo
-- Switch to mariadb for easier start routine
-- Sort minor dependency issues
+- Switch to official mysql image
 </Changes>
 <Overview>Myth-Tv test installation</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Myth-Tv test installation</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/mythsql/</Registry>
-<Repository>sparklyballs/mythsql</Repository>
+<Registry>https://registry.hub.docker.com/_/mysql/</Registry>
+<Repository>mysql</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
@@ -32,14 +30,22 @@
 </Networking>
 <Environment>
 <Variable>
-<Name></Name>
-<Value></Value>
+<Name>MYSQL_DATABASE</Name>
+<Value>mythconverg</Value>
+</Variable>
+<Variable>
+<Name>MYSQL_USER</Name>
+<Value>mythtv</Value>
+</Variable>
+<Variable>
+<Name>MYSQL_PASSWORD</Name>
+<Value>mythtv</Value>
 </Variable>
 </Environment>
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/db</ContainerDir>
+<ContainerDir>/var/lib/mysql</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

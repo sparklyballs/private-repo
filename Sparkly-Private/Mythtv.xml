@@ -16,8 +16,8 @@
 <Overview>Myth-Tv test installation</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Myth-Tv test installation</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/mythtv/</Registry>
-<Repository>sparklyballs/mythtv</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/myth-compile/</Registry>
+<Repository>sparklyballs/myth-compile</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

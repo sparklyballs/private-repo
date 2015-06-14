@@ -39,7 +39,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/root/.mythtv</ContainerDir>
+<ContainerDir>/home/ubuntu/.mythtv</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

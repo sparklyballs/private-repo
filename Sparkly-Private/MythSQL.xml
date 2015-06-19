@@ -14,8 +14,8 @@
 <Overview>Myth-Tv test installation</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Description>Myth-Tv test installation</Description>
-<Registry>https://registry.hub.docker.com/_/mysql/</Registry>
-<Repository>mysql</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/mythsql/</Registry>
+<Repository>sparklyballs/mythsql</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

@@ -28,6 +28,16 @@
 <ContainerPort>3389</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
+ <Port>
+<HostPort>6543</HostPort>
+<ContainerPort>6543</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+ <Port>
+<HostPort>6544</HostPort>
+<ContainerPort>6544</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>

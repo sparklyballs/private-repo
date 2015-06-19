@@ -29,6 +29,21 @@
 </Publish>
 </Networking>
 <Environment>
+ <Variable>
+<Name>MYSQL_ROOT_PASSWORD</Name>
+<Value></Value>
+</Variable>
+<Variable>
+<Name>MYSQL_DATABASE</Name>
+<Value>mythconverg</Value>
+</Variable>
+<Variable>
+<Name>MYSQL_USER</Name>
+<Value>mythtv</Value>
+</Variable>
+<Variable>
+<Name>MYSQL_PASSWORD</Name>
+<Value>mythtv</Value>
 </Environment>
 <Data>
 <Volume>

@@ -30,6 +30,10 @@
 </Networking>
 <Environment>
 <Variable>
+<Name>MYSQL_ROOT_PASSWORD</Name>
+<Value></Value>
+</Variable>
+<Variable>
 <Name>MYSQL_DATABASE</Name>
 <Value>mythconverg</Value>
 </Variable>

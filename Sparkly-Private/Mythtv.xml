@@ -52,6 +52,11 @@
 <ContainerDir>/root/.mythtv</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/db</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
 </Data>
 <WebUI></WebUI>
 <Banner>http://i.imgur.com/y2R1EO3.png</Banner>

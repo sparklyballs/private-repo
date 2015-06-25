@@ -33,6 +33,11 @@
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
+<HostPort>8085</HostPort>
+<ContainerPort>8085</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
 <HostPort>5050</HostPort>
 <ContainerPort>5050</ContainerPort>
 <Protocol>tcp</Protocol>
@@ -61,7 +66,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:8080]/</WebUI>
+<WebUI>http://[IP]:[PORT:8085]/</WebUI>
 <Banner></Banner>
 <Icon>http://i.imgur.com/ZKOnysH.png</Icon>
 </Container>

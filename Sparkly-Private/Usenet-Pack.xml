@@ -63,5 +63,5 @@
 </Data>
 <WebUI>http://[IP]:[PORT:8080]/</WebUI>
 <Banner></Banner>
-<Icon></Icon>
+<Icon>http://i.imgur.com/ZKOnysH.png</Icon>
 </Container>

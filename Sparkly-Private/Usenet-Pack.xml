@@ -10,9 +10,9 @@
 [center][font size=5]Usenet-Pack Change Log[/font][/center]
 [font size=4][/font]
 </Changes>
-<Description>Test build &amp;#13;&#13;thingy only</Description>
+<Description>Test build thingy only</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
-<Overview>Test build &amp;#13;&#13;thingy only</Overview>
+<Overview>Test build thingy only</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/usenet-pack/</Registry>
 <Repository>sparklyballs/usenet-pack</Repository>
 <BindTime>true</BindTime>

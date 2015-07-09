@@ -10,9 +10,9 @@
 [center][font size=5]TFTP-Server Change Log[/font][/center]
 [font size=4][/font]
 </Changes>
-<Description>Test build thingy only</Description>
+<Description>TFTP server for pxe boots, map /images to your image folders.</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
-<Overview>Test build thingy only</Overview>
+<Overview>TFTP server for pxe boots</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/tftp-server/</Registry>
 <Repository>sparklyballs/tftp-server</Repository>
 <BindTime>true</BindTime>

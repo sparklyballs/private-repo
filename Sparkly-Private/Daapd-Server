@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Daapd-Server</Name>
+<Beta>False</Beta>
+<Category>MediaApp:Music</Category>
+<Date>2015-07-09</Date>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Daapd-Server Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
+<Description>Test build thingy only</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
+<Overview>Test build thingy only</Overview>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/daapd-server/</Registry>
+<Repository>sparklyballs/daapd-server</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Environment/>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>3689</HostPort>
+<ContainerPort>3689</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>3689</HostPort>
+<ContainerPort>3689</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/music</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<Banner></Banner>
+<Icon>http://i.imgur.com/lAzFI2L.png</Icon>
+<Extraparameters>-v /var/run/dbus:/var/run/dbus</Extraparameters>
+</Container>

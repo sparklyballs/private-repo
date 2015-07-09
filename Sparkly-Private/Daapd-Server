@@ -47,5 +47,5 @@
 </Data>
 <Banner></Banner>
 <Icon>http://i.imgur.com/lAzFI2L.png</Icon>
-<Extraparameters>-v /var/run/dbus:/var/run/dbus</Extraparameters>
+<ExtraParams>-v /var/run/dbus:/var/run/dbus</ExtraParams>
 </Container>

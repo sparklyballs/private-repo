@@ -3,8 +3,8 @@
   <Name>Test-build</Name>
   <support>http://lime-technology.com/forum/index.php?topic=38232</support>
   <Description>Mate desktop in a box with libreoffice, hits CPU fairly hard.[br]Output folder is /home/ubuntu/unraid. user/password is ubuntu:PASSWD (case sensitive).[br] Once you have logged in and as long as you don't logout again you can resume a session by selecting it from the login dropdown. There are some wallpapers in /home/ubuntu/unraid/wallpapers.[br][b]IMPORTANT:- You have to connect with a remote desktop connection to port 3389. Also if you have kvm vm's running you may have to alter the host port for the 5900 port below to avoid a clash[/b]</Description>
-  <Registry>https://registry.hub.docker.com/u/sparklyballs/test-build/</Registry>
-  <Repository>sparklyballs/test-build</Repository>
+  <Registry>https://registry.hub.docker.com/u/sparklyballs/winebox/</Registry>
+  <Repository>sparklyballs/winebox</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>

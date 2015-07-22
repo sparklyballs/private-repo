@@ -14,8 +14,9 @@
 </Changes>
 <Description>blah blah blah and some more blah</Description>
 <Support></Support>
-<Overview>blah blah blah and some more blah</Registry>
-<Repository>sparklyballs/daapd-server</Repository>
+<Overview>blah blah blah and some more blah</Overview>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/znc/</Registry>
+<Repository>sparklyballs/znc</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Environment/>

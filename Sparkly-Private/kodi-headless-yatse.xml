@@ -36,6 +36,11 @@ MYSQLpass :- The xmbc password for mysql host[br]
 <ContainerPort>8080</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
+<Port>
+<HostPort>9777</HostPort>
+<ContainerPort>9777</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>

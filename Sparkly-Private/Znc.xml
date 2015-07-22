@@ -12,9 +12,9 @@
 [font size=4]2015-07-22[/font]
 - Initial Release
 </Changes>
-<Description>blah blah blah and some more blah</Description>
-<Support></Support>
-<Overview>blah blah blah and some more blah</Overview>
+<Description>ZNC is an IRC network bouncer or BNC.[br] It can detach the client from the actual IRC server, and also from selected channels. [br]Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC. [br][b]Default user/password for web interface is admin/admin.[br]Map /config to appdata share</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
+<Overview>ZNC is an IRC network bouncer or BNC. It can detach the client from the actual IRC server, and also from selected channels. Multiple clients from different locations can connect to a single ZNC account simultaneously and therefore appear under the same nickname on IRC.</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/znc/</Registry>
 <Repository>sparklyballs/znc</Repository>
 <BindTime>true</BindTime>

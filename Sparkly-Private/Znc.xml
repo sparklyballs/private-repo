@@ -39,5 +39,5 @@
 </Data>
 <Banner></Banner>
 <Icon></Icon>
-<WebUI>https://[IP]:[PORT:6051]/</WebUI>
+<WebUI>https://[IP]:[PORT:6501]/</WebUI>
 </Container>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Minetest-Server</Name>
+<Beta>False</Beta>
+<Project>http://www.minetest.net/</Project>
+<Category>Other:</Category>
+<Date>2015-07-23</Date>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Minetest-Server Change Log[/font][/center]
+[font size=4]2015-07-23[/font]
+- Initial Release
+</Changes>
+<Description>Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.</Description>
+<Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
+<Overview>Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.</Overview>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/minetest/</Registry>
+<Repository>sparklyballs/minetest</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Environment/>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort></HostPort>
+<ContainerPort></ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<Banner>http://i.imgur.com/HQmb2Sn.png</Banner>
+<Icon></Icon>
+<WebUI></WebUI>
+</Container>

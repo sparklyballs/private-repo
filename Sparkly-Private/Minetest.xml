@@ -9,10 +9,12 @@
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
 
 [center][font size=5]Minetest-Server Change Log[/font][/center]
+[font size=4]2015-07-24[/font]
+- Fix up start routine
 [font size=4]2015-07-23[/font]
 - Initial Release
 </Changes>
-<Description>Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.</Description>
+<Description>Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.[br][br][b]Map /home/minetest/.minetest to your appdata share[/b]</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
 <Overview>Minetest is an infinite-world block sandbox game and a game engine, inspired by InfiniMiner, Minecraft and the like.</Overview>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/minetest/</Registry>
@@ -33,7 +35,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/home/minetest/.minetest</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>

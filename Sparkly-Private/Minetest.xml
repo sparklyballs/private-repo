@@ -26,8 +26,8 @@
 <Mode>bridge</Mode>
 <Publish>
 <Port>
-<HostPort></HostPort>
-<ContainerPort></ContainerPort>
+<HostPort>30000</HostPort>
+<ContainerPort>30000</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
 </Publish>

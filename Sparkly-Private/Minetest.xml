@@ -28,7 +28,7 @@
 <Port>
 <HostPort>30000</HostPort>
 <ContainerPort>30000</ContainerPort>
-<Protocol>tcp</Protocol>
+<Protocol>udp</Protocol>
 </Port>
 </Publish>
 </Networking>

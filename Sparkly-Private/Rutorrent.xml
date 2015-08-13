@@ -98,7 +98,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT]</WebUI>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner></Banner>
 <Icon>http://i.imgur.com/qHcSwIu.png</Icon>
 </Container>

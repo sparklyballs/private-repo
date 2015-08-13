@@ -45,7 +45,7 @@
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/downloads</ContainerDir>
-<Mode></Mode>
+<Mode>rw</Mode>
 </Volume>
 </Data>
 <WebUI>http://[IP]:[PORT]</WebUI>

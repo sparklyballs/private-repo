@@ -74,11 +74,6 @@
 <ContainerPort>45576</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>45566-45576</HostPort>
-<ContainerPort>45566-45576</ContainerPort>
-<Protocol>tcp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Environment>

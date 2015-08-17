@@ -6,7 +6,8 @@
 <Category>Other:</Category>
 <Date>2015-08-12</Date>
 <Description></Description>
-<Repository>reg.lonix.me/buildbox</Repository>
+<Registry>https://hub.docker.com/r/linuxserver/docker-kodi-buildbox/</Registry>
+<Repository>linuxserver/docker-kodi-buildbox</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>

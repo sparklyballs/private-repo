@@ -7,11 +7,11 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <HostPort>9065</HostPort>
+        <ContainerPort>9065</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
            <Port>
@@ -43,7 +43,7 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <WebUI>http://[IP]:[PORT:9065]/</WebUI>
   <Banner></Banner>
   <Icon>http://i.imgur.com/4BM3h9L.png</Icon>
 </Container>

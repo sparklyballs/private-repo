@@ -40,7 +40,7 @@
     <Volume>
       <HostDir></HostDir>
       <ContainerDir>/music</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>

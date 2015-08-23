@@ -39,7 +39,7 @@
     </Volume>
     <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/music</ContainerDir>
+      <ContainerDir>/media</ContainerDir>
       <Mode>ro</Mode>
     </Volume>
   </Data>

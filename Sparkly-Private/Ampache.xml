@@ -48,6 +48,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:80]/</WebUI>
-  <Banner></Banner>
+  <Banner>http://i.imgur.com/n3pbyGO.png</Banner>
   <Icon>http://i.imgur.com/4BM3h9L.png</Icon>
 </Container>

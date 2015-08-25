@@ -7,19 +7,8 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>8330</HostPort>
-        <ContainerPort>8330</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-           <Port>
-        <HostPort>3689</HostPort>
-        <ContainerPort>3689</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
+    <Mode>host</Mode>
+    </Publish/>
   </Networking>
   <Environment>
     <Variable>

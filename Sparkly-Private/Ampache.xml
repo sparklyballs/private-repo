@@ -8,7 +8,7 @@
   <Privileged>false</Privileged>
   <Networking>
     <Mode>host</Mode>
-    </Publish/>
+    <Publish/>
   </Networking>
   <Environment>
     <Variable>

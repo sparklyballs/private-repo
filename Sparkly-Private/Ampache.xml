@@ -10,8 +10,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <HostPort>8330</HostPort>
+        <ContainerPort>8330</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
            <Port>
@@ -43,7 +43,7 @@
       <Mode>ro</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:80]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8330]/</WebUI>
   <Banner>http://i.imgur.com/n3pbyGO.png</Banner>
   <Icon>http://i.imgur.com/4BM3h9L.png</Icon>
 </Container>

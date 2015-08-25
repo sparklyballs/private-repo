@@ -29,11 +29,6 @@
      <Variable>
       <Name>PUID</Name>
       <Value>99</Value>
-    </Variable>
-         <Variable>
-      <Name>TZ</Name>
-      <Value></Value>
-    </Variable>
   </Environment>
   <Data>
     <Volume>

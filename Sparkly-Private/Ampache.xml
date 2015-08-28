@@ -19,6 +19,10 @@
       <Name>PUID</Name>
       <Value>99</Value>
      </Variable>
+        <Variable>
+      <Name>ip_host</Name>
+      <Value></Value>
+     </Variable>
   </Environment>
   <Data>
     <Volume>

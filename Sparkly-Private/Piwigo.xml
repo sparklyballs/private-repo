@@ -48,7 +48,7 @@ Set local unraid storage location to save var/www/gallery for persistence.[br][b
 <Volume>
 <HostDir></HostDir>
 <ContainerDir>/pictures</ContainerDir>
-<Mode>rw</Mode>
+<Mode>ro</Mode>
 </Volume>
 </Data>
 <WebUI>http://[IP]:[PORT:80]/</WebUI>

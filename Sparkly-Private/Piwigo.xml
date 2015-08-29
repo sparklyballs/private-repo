@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Piwigo</Name>
+<Beta>False</Beta>
+<Date>2015-08-29</Date>
+<Project>http://piwigo.org/</Project>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Freshrss Change Log[/font][/center]
+</Changes>
+<Category>MediaServer:Photos</Category>
+<Overview>Piwigo is photo gallery software for the web, built by an active community of users and developers.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
+<Description>Piwigo is photo gallery software for the web, built by an active community of users and developers.[br]Extensions make Piwigo easily customizable. Icing on the cake, Piwigo is free and opensource.[br][br]
+Set local unraid storage location to save var/www/gallery for persistence.[br][br]YOU MUST CREATE A DATABASE AND A USER WITH FULL PRIVILEGES TO THAT DATABASE IN MYSQL/MARIADB[br] OR THIS WILL NOT WORK.  
+[br]YOU MUST ALSO CHANGE THE HOST PORT BELOW OR IT WILL CLASH WITH THE UNRAID WEBUI PORT</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/piwigo/</Registry>
+<Repository>sparklyballs/piwigo</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name>PUID</Name>
+<Value>99</Value>
+</Variable>
+<Variable>
+<Name>PGID</Name>
+<Value>100</Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/pictures</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<Banner>http://upload.wikimedia.org/wikipedia/fr/0/07/Piwigo_logo.png</Banner>
+<Icon>http://48jwh53mcwj217jvx11dcwjj.wpengine.netdna-cdn.com/wp-content/uploads/2011/02/logo-shadow.png</Icon>
+</Container>

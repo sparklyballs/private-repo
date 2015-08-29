@@ -45,11 +45,6 @@ Set local unraid storage location to save var/www/gallery for persistence.[br][b
 <ContainerDir>/config</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
-<Volume>
-<HostDir></HostDir>
-<ContainerDir>/pictures</ContainerDir>
-<Mode>ro</Mode>
-</Volume>
 </Data>
 <WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner>http://upload.wikimedia.org/wikipedia/fr/0/07/Piwigo_logo.png</Banner>

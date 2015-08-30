@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
+<Name>OwnCloud</Name>
 <Beta>False</Beta>
 <Category>Cloud: Tools:</Category>
 <Date>2015-08-30</Date>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Beta>False</Beta>
+<Category>Cloud: Tools:</Category>
+<Date>2015-08-30</Date>
+<Project>https://owncloud.org/</Project>
+  <Changes>
+    [center][img width='300px' src='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_small.png'][/center]
+ 
+[center][font size=4]Freshrss Change Log[/font][/center]
+</Changes>
+<Overview></Overview>
+<Support></Support>
+<Description></Description>
+<Registry>https://hub.docker.com/r/linuxserver/owncloud/</Registry>
+<Repository>linuxserver/owncloud</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name>PUID</Name>
+<Value>99</Value>
+</Variable>
+<Variable>
+<Name>PGID</Name>
+<Value>100</Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/data</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<Banner>http://i.imgur.com/GVLe3nN.png</Banner>
+<Icon>http://i.imgur.com/jcFeToP.png</Icon>
+</Container>

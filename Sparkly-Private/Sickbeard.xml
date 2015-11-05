@@ -2,8 +2,8 @@
 <Container>
 <Name>Sickbeard</Name>
 <Description>Personalised copy of Sickbeard Docker</Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/sickbeard/</Registry>
-<Repository>sparklyballs/sickbeard</Repository>
+<Registry>https://hub.docker.com/r/lsiodev/sickbeard/</Registry>
+<Repository>lsiodev/sickbeard</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
